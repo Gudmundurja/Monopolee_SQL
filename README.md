@@ -9,7 +9,7 @@ players, properties, location, bonuses, tokens, audit_trail
 
 Tables created in Monopoly_CreateTable.sql, with data populated via Monopolee_insert.sql
 
-🎮 Gameplay Mechanics
+# 🎮 Gameplay Mechanics
 Players move around the board by simulated dice rolls
 
 Gameplay logic includes:
@@ -24,14 +24,14 @@ Wrap-around movement logic (Rules 5–7)
 
 Managed using SQL scripts, views, and global variables
 
-🧠 Game Logic Implementation
+# 🧠 Game Logic Implementation
 SQL session variables (@dice, @play_count, @current_location, etc.) control game flow
 
 View gameview combines data from players and audit_trail to display current game state
 
 Stored procedures (e.g., GamePlay, update_audit_trail) manage rule execution and progression
 
-🗂️ Files Included
+# 🗂️ Files Included
 Monopoly_CreateTable.sql – table creation script
 
 Monopolee_insert.sql – sample data for players, properties, bonuses
@@ -44,7 +44,7 @@ monopolee.sql – consolidated script implementing Rules 1–7
 
 Coursework_1_understanding_databases_GJA.pdf – full report and documentation
 
-🧠 Learning Outcomes
+# 🧠 Learning Outcomes
 Built a functional, rule-based game using only SQL
 
 Learned to manage state, randomness, and flow using SQL logic
