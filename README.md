@@ -1,5 +1,5 @@
 🎲 Monopolee – SQL-Based Monopoly-Style Game Simulation
-This project was developed as part of the Understanding Databases (DATA70141) module at The University of Manchester. It simulates a turn-based board game similar to Monopoly, entirely within a relational database environment using SQL. The game includes player movement, property purchases, rent collection, and event-based tiles, all powered by structured SQL logic.
+This project simulates a turn-based board game similar to Monopoly, entirely within a relational database environment using SQL. The game includes player movement, property purchases, rent collection, and event-based tiles, all powered by structured SQL logic.
 
 📌 Key Features
 🗃️ Database Schema & Setup
